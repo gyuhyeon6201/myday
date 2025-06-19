@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/myday/static/css/main.3915ef7f.css",
+    "main.js": "/myday/static/js/main.64e86d77.js",
+    "static/media/dark-sky.jpg": "/myday/static/media/dark-sky.6e584f461cdcbb8c4116.jpg",
+    "static/media/sky.jpg": "/myday/static/media/sky.79494b9d80e1abfe6745.jpg",
+    "index.html": "/myday/index.html",
+    "main.3915ef7f.css.map": "/myday/static/css/main.3915ef7f.css.map",
+    "main.64e86d77.js.map": "/myday/static/js/main.64e86d77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3915ef7f.css",
+    "static/js/main.64e86d77.js"
+  ]
+}
