@@ -10,7 +10,7 @@ const MainPage = ({ user, onLogout }) => {
     const [todos, setTodos] = useState([]);
     // 처음에 localstrage에 저장된 todos 값이 있으면 읽어와서 설정
     useEffect(() => {
-        const saved = localStorage.getItem(`TODOS_KEY-${user}`); // 문자열
+        const saved = localStorage.getItem(`TODOS_KEY-${user}`); // 문자열, user 정보 인식
         if (saved) {
             setTodos(JSON.parse(saved)); // 문자열->객체
         }
@@ -18,7 +18,7 @@ const MainPage = ({ user, onLogout }) => {
     // todos가 변경되면 localstorage에 저장
     useEffect(() => {
         const saved = JSON.stringify(todos); // 객체를 문자열로...
-        localStorage.setItem(`TODOS_KEY-${user}`, saved);
+        localStorage.setItem(`TODOS_KEY-${user}`, saved); // user 정보 인식
     }, [todos, user]);
 
     const addTodo = (text) => {
