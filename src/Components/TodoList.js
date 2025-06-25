@@ -21,7 +21,7 @@ const TodoList = ({ todos, onDelete, onToggle }) => {
                                     ? "line-through"
                                     : "none",
                                 textDecorationColor: item.done
-                                    ? "purple"
+                                    ? "#0a040a"
                                     : "inherit",
                                 textDecorationThickness: item.done
                                     ? "5px"
